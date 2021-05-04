@@ -1,0 +1,28 @@
+package variaveis;
+
+public class ManipulaString {
+	
+	public static void main(String[] args) {
+		
+		String email = "teste@teste.com.br";
+		System.out.println("Original: " + email);
+		System.out.println("Minusculo: " + email.toLowerCase());
+		System.out.println("Maiusculo: " + email.toUpperCase());
+		System.out.println("Quantidade de Caracteres: " + email.length());
+		System.out.println("Tem arroba? " + email.contains("a")); //boolean (true or false
+		System.out.println("Posição do @: " + email.indexOf("@"));
+		System.out.println("Do 3º até o 5º: " + email.substring(2,4));
+		
+		/*
+		 * String.length() => retorna a quantidade de caracteres
+		 */
+	}
+	
+	/*
+	 * churros => variavels
+	 * churros() => função
+	 * Abc.churros() => método
+	 * Churros => classe
+	 */
+
+}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\Estudo\Gama - Itaú\ws\.metadata\.plugins\org.eclipse.jdt.core
+3310661597.index
+2296325567.index

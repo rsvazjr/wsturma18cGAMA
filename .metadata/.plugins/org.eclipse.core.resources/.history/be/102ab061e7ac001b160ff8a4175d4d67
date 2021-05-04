@@ -1,0 +1,51 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoSimples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Pedir: nome e idade
+		 * De acordo com as regras para votação no brasil, oriente
+		 * o usuário se ele pode votar, se ele
+		 * não pode votar ou se o voto dele é facultativo
+		 */
+		
+		String nome = JOptionPane.showInputDialog("Informe o seu nome");
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Informe a sua idade"));
+		
+		
+		if(idade > 18 && idade < 70) {
+		//&& => and
+		// || => or	
+			
+			
+			System.out.println("Nome do candidato: " + nome);
+			System.out.println("Idade: " + idade);
+			System.out.println("Apto para votar");
+			
+		}
+		
+		if (idade < 18) {
+			
+			System.out.println("Nome do candidato: " + nome);
+			System.out.println("Idade: " + idade);
+			System.out.println("Não apto para votar: ");
+			
+		}
+		
+		else {
+			System.out.println("Não está dentro das regras de votação");
+		}
+	
+		
+		
+
+	
+
+	}
+
+}

@@ -1,0 +1,60 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+/*
+ * Características do Java:
+ * - OO
+ * - médio nível
+ * - arquitetura hibrida
+ */
+public class TiposDados {
+	// main é o método start point de uma app Java
+	public static void main(String args[])	{
+			//<Tipo de dado> <nome/identificador> = <valor>;
+			String nome = JOptionPane.showInputDialog("Informe o seu nome");
+			int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade"));
+			double altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura"));
+			double peso = Double.parseDouble(JOptionPane.showInputDialog("Digite seu peso"));
+			double imc = peso / (altura * altura);
+			System.out.println("Nome..: " + nome);
+			System.out.println("Idade.: " + idade);
+			System.out.println("Altura: " + altura);
+			System.out.println("IMC: " + imc);
+		
+		/*
+		 * Tipos De dados:
+		 * Númerico: é o dado que PODE ser utilizado em expressões matemáticas
+		 * e/ou se for um dado crítico para o cenário que se prope
+		 * CEP (diante de um contexto dos Correios): 00010009 - 1
+		 * Telefone (do delivery da pizzaria)
+		 * Em Javanês:
+		 * - int 	=> somente para números inteiros
+		 * - double => para número com casas decimais (números reais)
+		 * 
+		 * 
+		 * Alfanumérico: é o dado que não está envolvido em operações matemáticas
+		 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	} // fechando o método
+
+} // fechando a classe
+
+

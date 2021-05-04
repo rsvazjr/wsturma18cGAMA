@@ -1,0 +1,37 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Capturarem:
+		 * - Nome da disciplina
+		 * - primeira nota
+		 * - segunda nota
+		 * - calcular a media
+		 * - exibir a media
+		 */
+		
+		String disciplina = JOptionPane.showInputDialog("Informe o nome da disciplina");
+		float primeira_nota = Float.parseFloat(JOptionPane.showInputDialog("Informe a primeira nota"));
+		float segunda_nota = Float.parseFloat(JOptionPane.showInputDialog("Informe a segunda nota"));
+		float media = (primeira_nota + segunda_nota) / 2;
+		float resultado = media;
+		
+		if(media >= 6) {
+			
+			System.out.println("Você foi aprovado");
+		}
+		
+		System.out.println("Nome da Disciplina: " + disciplina);
+		System.out.println("Primeira nota: " + primeira_nota);
+		System.out.println("Segunda nota: " + segunda_nota);
+		System.out.println("Média: " + resultado);
+
+	}
+
+}
